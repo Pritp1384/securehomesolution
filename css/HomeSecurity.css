@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-left: 5px solid #333;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20;
+
+}
+
+/* Add this to your existing CSS file */
+.card:hover{
+    scale: 1.1;
+}
+
+.card {
+
+    width: 18%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-product {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-main {
+    padding: 15px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
